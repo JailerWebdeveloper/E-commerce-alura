@@ -9,7 +9,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <Menu />,
-    errorElement: <h1>404</h1>,
+    errorElement: <h1>error</h1>,
   },
   {
     path: '/listaproductos',
