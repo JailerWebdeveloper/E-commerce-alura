@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Menu from './vistas/menu'
-import Producto from './vistas/Producto'
-import ProductoIndividual from './vistas/productoindividual'
+import App from './App'
+import Producto from './pages/Producto'
+import ProductoIndividual from './pages/productoindividual'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Menu />,
+    element: <App />,
     errorElement: <h1>error</h1>,
   },
   {
